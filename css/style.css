@@ -1,0 +1,138 @@
+/* Estilos CSS para las cartas del memorama */
+#memorama-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    /* Estilos adicionales para personalizar las cartas */
+}
+
+#puntajeJugador1 {
+    font-size: xx-large;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: khaki;
+    border-radius: 8px;
+}
+
+#puntajeJugador2 {
+    font-size: xx-large;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: khaki;
+    border-radius: 8px;
+}
+
+
+image:hover{
+    transform: scale(0.8px);
+}
+
+img{
+    transform: scale(0.8px);
+}
+
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#divpadre {
+    background-color: transparent;
+    width: auto;
+    height: 997px;
+}
+
+#titulomod1 {
+    position: absolute;
+    top: 20px;
+    left: 640px;
+}
+
+#img1 {
+    background-color: transparent;
+}
+
+#SF {
+    background-color: transparent;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#img1 {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+#img1c {
+    position: absolute;
+    top: 620px;
+    left: 740px;
+}
+
+#img2 {
+    position: absolute;
+    top: 240px;
+    left: 440px;
+}
+
+#img2c {
+    position: absolute;
+    top: 615px;
+    left: 1450px;
+}
+
+#img3 {
+    position: absolute;
+    top: 235px;
+    left: 772px;
+}
+
+#img3c {
+    position: absolute;
+    top: 235px;
+    left: 1480px;
+}
+
+#img4 {
+    position: absolute;
+    top: 220px;
+    left: 1115px;
+}
+
+#img4c {
+    position: absolute;
+    top: 610px;
+    left: 35px;
+}
+
+#img5 {
+    position: absolute;
+    top: 590px;
+    left: 335px;
+}
+
+#img5c {
+    position: absolute;
+    top: 610px;
+    left: 1055px;
+}
