@@ -12,11 +12,11 @@ class Juegodoble {
       this.cartaSeleccionada2 = null;
   
       this.imgArreglo = [
-        '/asets/img/carta1.jpg',
-        '/asets/img/carta2.jpg',
-        '/asets/img/carta3.jpg',
-        '/asets/img/carta4.jpg',
-        '/asets/img/carta5.jpg',
+        '/asets/img/carta1.png',
+        '/asets/img/carta2.png',
+        '/asets/img/carta3.png',
+        '/asets/img/carta4.png',
+        '/asets/img/carta5.png',
       ];
   
   

@@ -1,0 +1,66 @@
+.n{
+    width: 250px;
+    height: 100px;
+    position: absolute; top: 220px; left: 545px;
+    
+}
+.mov{
+    width: 250px;
+    height: 100px;
+    position: absolute; top: 320px; left: 545px; ;
+}
+.n1{
+    width: 250px;
+    height: 100px;
+    position: absolute; top: 420px; left: 545px;
+}
+.mov1{
+    width: 250px;
+    height: 100px;
+    position: absolute; top: 520px; left: 545px;
+}
+#btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.s a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.s a:hover{
+    background: #fff;
+    color: #cc2b2b;
+}
+.s a{
+    
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-mas:checked~ .s a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #f44141;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}
