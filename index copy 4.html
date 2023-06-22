@@ -39,21 +39,30 @@
 
 
 
+        <div id="puntajeJugador1"></div>
         <div id="puntajeJugador3">
-            <br><center><label id="intentos"></label></center>
+        <br><center><label id="intentos"></label></center>
         </div>
+        <div id="puntajeJugador2"></div>
+        <div id="puntajeJugador4">
+        <br><center><label id="intentos2"></label></center>
+        </div>
+        
     </div>
 
     <div id="cartas"></div>
 
-    <script src="/JS/unijugadorIntentos.js"></script>
-
-    <script type="application/javascript">
-        const jugador = new Jugador();
-        jugador.inicializarEquiposNormal() 
-
-         document.getElementById('intentos').innerHTML = "INTENTOS: " + jugador.intentos
-    </script>
 </body>
+<script src="/JS/multijugadorIntentos.js"></script>
+
+<script type="application/javascript">
+    const juegodoble = new Juegodoble();
+    juegodoble.inicializarEquiposNormal() 
+
+    
+    document.getElementById('intentos').innerHTML = "INTENTOS: " + juegodoble.intentos
+    
+    document.getElementById('intentos2').innerHTML = "INTENTOS: " + juegodoble.intentos2
+</script>
 
 </html>

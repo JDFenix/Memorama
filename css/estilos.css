@@ -28,66 +28,76 @@ button {
     border-color: transparent;
 }
 
-button:hover {
+/* button:hover {
     transform: translate(0.8px);
+} */
+
+#d1{
+    position: absolute; top: 240px; left: 348px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img1 {
-    position: absolute;
-    top: 200px;
-    left: 60px;
+#d2{
+    position: absolute; top: 550px; left: 810px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img1c {
-    position: absolute;
-    top: 620px;
-    left: 740px;
+#d3{
+    position: absolute; top: 240px; left: 580px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img2 {
-    position: absolute;
-    top: 240px;
-    left: 440px;
+#d4{
+    position: absolute; top: 550px; left: 1270px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img2c {
-    position: absolute;
-    top: 615px;
-    left: 1450px;
+#d5{
+    position: absolute; top: 240px; left: 812px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img3 {
-    position: absolute;
-    top: 235px;
-    left: 772px;
+#d6{
+    position: absolute; top: 240px; left: 1270px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img3c {
-    position: absolute;
-    top: 235px;
-    left: 1480px;
+#d7{
+    position: absolute; top: 240px; left: 1040px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img4 {
-    position: absolute;
-    top: 220px;
-    left: 1115px;
+#d8{
+    position: absolute; top: 550px; left: 348px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img4c {
-    position: absolute;
-    top: 610px;
-    left: 35px;
+#d9{
+    position: absolute; top: 550px; left: 580px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }
 
-#img5 {
-    position: absolute;
-    top: 590px;
-    left: 335px;
-}
-
-#img5c {
-    position: absolute;
-    top: 610px;
-    left: 1055px;
+#d10{
+    position: absolute; top: 550px; left: 1040px;
+    background-color: transparent;
+    height: 200px;
+    width: 210px;
 }

@@ -5,43 +5,47 @@
     gap: 10px;
 }
 
-.card {
-    width: 100px;
+/* .card {
+    width: 00px;
     height: 100px;
     background-color: gray;
-    /* Estilos adicionales para personalizar las cartas */
-}
+    /* Estilos adicionales para personalizar las cartas
+} */
 
 #puntajeJugador1 {
     font-size: xx-large;
     font-family: cursive;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: absolute; top: 35px; left: 300px;
     background-color: khaki;
     border-radius: 8px;
+}
+#puntajeJugador3 {
+    font-size: xx-large;
+    font-family: cursive;
+    position: absolute; top: 85px; left: 300px;
+    background-color: khaki;
+    border-radius: 8px;
+    
+    height: 90px;
+    width: 230px;
 }
 
 #puntajeJugador2 {
     font-size: xx-large;
     font-family: cursive;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position: absolute; top: 35px; left: 1280px;
     background-color: khaki;
     border-radius: 8px;
 }
-
-
-image:hover{
-    transform: scale(0.8px);
+#puntajeJugador4 {
+    font-size: xx-large;
+    font-family: cursive;
+    position: absolute; top: 85px; left: 1280px;
+    background-color: khaki;
+    border-radius: 8px;
+    height: 90px;
+    width: 230px;
 }
-
-img{
-    transform: scale(0.8px);
-}
-
-
 
 
 

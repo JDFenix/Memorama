@@ -39,20 +39,17 @@
 
 
 
-        <div id="puntajeJugador3">
-            <br><center><label id="intentos"></label></center>
-        </div>
+        <div id="puntajeJugador1"></div>
+        <div id="puntajeJugador2"></div>
     </div>
 
     <div id="cartas"></div>
 
-    <script src="/JS/unijugadorIntentos.js"></script>
+    <script src="/JS/Memorama.js"></script>
 
     <script type="application/javascript">
-        const jugador = new Jugador();
-        jugador.inicializarEquiposNormal() 
-
-         document.getElementById('intentos').innerHTML = "INTENTOS: " + jugador.intentos
+        const memorama = new Memorama();
+        memorama.inicializarEquiposNormal() 
     </script>
 </body>
 

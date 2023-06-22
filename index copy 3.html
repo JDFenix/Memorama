@@ -40,19 +40,20 @@
 
 
         <div id="puntajeJugador3">
-            <br><center><label id="intentos"></label></center>
+            <br><center><label id="correctas"></label></center>
         </div>
     </div>
 
     <div id="cartas"></div>
 
-    <script src="/JS/unijugadorIntentos.js"></script>
+    <script src="/JS/unijugador"></script>
 
     <script type="application/javascript">
-        const jugador = new Jugador();
-        jugador.inicializarEquiposNormal() 
+        const jugador1 = new Jugador1();
+        jugador1.inicializarEquiposNormal() 
 
-         document.getElementById('intentos').innerHTML = "INTENTOS: " + jugador.intentos
+        
+        document.getElementById('correctas').innerHTML = "Acietos: " + jugador1.cartasCorrectas
     </script>
 </body>
 
