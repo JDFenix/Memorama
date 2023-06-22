@@ -87,11 +87,12 @@ class Memorama {
         this.sumarPunto();
       } else {
         setTimeout(() => {
+          this.cambiarTurno();
 
           this.cartaSeleccionada1 = null;
           this.cartaSeleccionada2 = null;
           imagen.style.pointerEvents = 'auto';
-        }, 1000);
+        }, 850);
       }
   
       setTimeout(() => {
@@ -101,12 +102,12 @@ class Memorama {
           let imagenes = document.getElementsByTagName("img");
           for (let i = 0; i < imagenes.length; i++) {
             imagenes[i].style.pointerEvents = 'auto';
+            
           }
         }
   
         this.cartaSeleccionada1 = null;
         this.cartaSeleccionada2 = null;
-        this.cambiarTurno();
       }, 500);
     }
   
@@ -177,11 +178,11 @@ class Memorama {
         if(total == 5){
           if(this.cartasCorrectas1 > this.cartasCorrectas2){
               alert("Jugador 1 has ganado el juego");
-              window.location.href = "index copy 2.html"
+              window.location.href = "Multijugador.html"
           }
           else{
               alert("Jugador 2 has ganado el juego");
-              window.location.href = "index copy 2.html"
+              window.location.href = "Multijugador.html"
           }
         }
     }
@@ -192,11 +193,11 @@ class Memorama {
         if(total == 5){
           if(this.cartasCorrectas2 > this.cartasCorrectas1){
             alert("Jugador 2 has ganado el juego");
-            window.location.href = "index copy 2.html"
+            window.location.href = "Multijugador.html"
         }
         else{
           alert("Jugador 1 has ganado el juego");
-          window.location.href = "index copy 2.html"
+          window.location.href = "Multijugador.html"
       }
         }
     }

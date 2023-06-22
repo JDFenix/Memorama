@@ -96,6 +96,7 @@ class Juegodoble {
                 document.getElementById('intentos2').innerHTML = "INTENTOS: " + this.intentos2
             }
           setTimeout(() => {
+            this.cambiarTurno();
   
             this.cartaSeleccionada1 = null;
             this.cartaSeleccionada2 = null;
@@ -115,7 +116,6 @@ class Juegodoble {
     
           this.cartaSeleccionada1 = null;
           this.cartaSeleccionada2 = null;
-          this.cambiarTurno();
         }, 500);
       }
     
@@ -186,11 +186,11 @@ class Juegodoble {
           if(total == 5){
             if(this.cartasCorrectas1 > this.cartasCorrectas2){
                 alert("Jugador 1 has ganado el juego");
-                window.location.href = "index copy 2.html"
+                window.location.href = "MultijugadorIntentos.html"
             }
             else{
                 alert("Jugador 2 has ganado el juego");
-                window.location.href = "index copy 2.html"
+                window.location.href = "MultijugadorIntentos.html"
             }
           }
       }
@@ -201,11 +201,11 @@ class Juegodoble {
         if(total == 5){
         if(this.cartasCorrectas2 > this.cartasCorrectas1){
             alert("Jugador 2 has ganado el juego");
-            window.location.href = "index copy 2.html"
+            window.location.href = "MultijugadorIntentos.html"
         }
         else{
         alert("Jugador 1 has ganado el juego");
-        window.location.href = "index copy 2.html"
+        window.location.href = "MultijugadorIntentos.html"
     }
         }
     }
@@ -214,7 +214,7 @@ class Juegodoble {
      this.intentos = this.intentos - 1;
     if(this.intentos == 0){
         alert("Te has quedado sin intentos")
-        window.location.href = "index copy 4.html"
+        window.location.href = "MultijugadorIntentos.html"
         }
     
   }
@@ -223,7 +223,7 @@ class Juegodoble {
      this.intentos2 = this.intentos2 - 1;
     if(this.intentos2 == 0){
         alert("Te has quedado sin intentos")
-        window.location.href = "index copy 4.html"
+        window.location.href = "MultijugadorIntentos.html"
         }
     
   }

@@ -147,7 +147,7 @@ class Jugador {
      this.intentos = this.intentos - 1;
     if(this.intentos == 0){
         alert("Te has quedado sin intentos")
-        window.location.href = "index copy.html"
+        window.location.href = "UnijugadorIntentos.html"
         }
     
   }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorama Mario Bros</title>
-    <link rel="icon" href="/assets/img/champiñon_rojo.jpg" type="image/gif" />
+    <link rel="icon" href="/asets/img/champiñon_rojo.jpg" type="image/gif" />
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
@@ -13,7 +13,7 @@
 <body background="/asets/img/fondo.png">
 
     <div id="divpadre">
-        <h1 style="margin-left: 35%;">MEMORAMA 1 PLAYER</h1>
+        <h1 style="margin-left: 35%;">MEMORAMA 2 PLAYERS</h1>
         <div id="divimg1"></div>
         <div id="d1"></div>
         <div id="d2"></div>
@@ -39,20 +39,17 @@
 
 
 
-        <div id="puntajeJugador3">
-            <br><center><label id="intentos"></label></center>
-        </div>
+        <div id="puntajeJugador1"></div>
+        <div id="puntajeJugador2"></div>
     </div>
 
     <div id="cartas"></div>
 
-    <script src="/JS/unijugadorIntentos.js"></script>
+    <script src="/JS/Multijugador.js"></script>
 
     <script type="application/javascript">
-        const jugador = new Jugador();
-        jugador.inicializarEquiposNormal() 
-
-         document.getElementById('intentos').innerHTML = "INTENTOS: " + jugador.intentos
+        const memorama = new Memorama();
+        memorama.inicializarEquiposNormal() 
     </script>
 </body>
 

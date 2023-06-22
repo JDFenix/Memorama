@@ -146,7 +146,7 @@ class Jugador1 {
          this.cartasCorrectas = this.cartasCorrectas + 1;
         if(this.cartasCorrectas == 5){
             alert("Has ganado el juego");
-            window.location.href = "index copy 3.html"
+            window.location.href = "Unijugador.html"
         }
     }
 
